@@ -46,11 +46,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:textSize="18dp"
         android:text="Remember me"
         android:textColor="@color/white"
         app:layout_constraintLeft_toLeftOf="@+id/et_password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
 
     <Button
         android:id="@+id/btn_login"
@@ -64,14 +66,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <EditText
+    <TextView
         android:text="Forget Password"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
         android:drawablePadding="12dp"
         android:drawableStart="@drawable/ic_lock_open"
         android:textColor="@color/white"
         android:layout_marginStart="190dp"
         app:layout_constraintStart_toStartOf="@+id/check_remember_me"
-        app:layout_constraintLeft_toLeftOf="@+id/check_remember_me"
+        app:layout_constraintLeft_toRightOf="@+id/check_remember_me"
         app:layout_constraintTop_toBottomOf="@+id/et_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
